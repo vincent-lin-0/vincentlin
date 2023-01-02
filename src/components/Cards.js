@@ -19,7 +19,6 @@ function Cards() {
                         src={require('../images/gitlet.png')}
                         text='Gitlet: A miniature version of the version-control system Git'
                         label='Java'
-                        path='/services'
                     />
                     </ul>
                     <ul className='cards__items'>
@@ -27,7 +26,6 @@ function Cards() {
                         src={require('../images/enigma.png')}
                         text='Enigma: Simulating the Enigma Machine used during World War II to secretly transfer messages'
                         label='Java'
-                        path='/services'
                     />
                     <CardItem
                         src={require('../images/website.png')}
