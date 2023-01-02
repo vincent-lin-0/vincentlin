@@ -33,7 +33,7 @@ function Cards() {
                         src={require('../images/website.png')}
                         text="Vincent's Personal Website: The one you are currently on :)"
                         label='React'
-                        path='/products'
+                        path='https://github.com/vincent-lin-0/vincentlin'
                     />
                 </ul>
             </div>
