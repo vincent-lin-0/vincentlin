@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home,
+.about,
+.projects,
+.contact {
   display: flex;
-  flex-direction: column;
+  height: 90vh;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+.about-me {
+  color: black;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 100%;
+  width: 70%;
+  margin-top: 5rem;
+  margin: 5rem auto -7rem;
+  position: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about-me-text {
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 175%;
+  text-align: center;
+  width: 70%;
+  margin: 10rem auto -4rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.bio {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  position: relative;
+  margin: 10rem auto 10rem;
+}
+
+.bio-text {
+  margin: 0 0 0 2em;
+  font-size: 20px;
+  line-height: 1.5em;
+  letter-spacing: .015em;
+  font-weight: 500;
+  margin-bottom: 16px;
+  position: center;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-end: 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.vincent-pic {
+  max-width: 25em;
+  max-height: 20em;
+  width: auto;
+  height: auto;
+}
+
+.projects {
+  background-color: black;
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.fade-in {
+  transition: opacity 1s ease;
 }
