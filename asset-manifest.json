@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/vincentlin/static/css/main.94b1129f.css",
+    "main.css": "/vincentlin/static/css/main.aa94cefc.css",
     "main.js": "/vincentlin/static/js/main.f6eec7dc.js",
     "static/media/vincentlin.jpg": "/vincentlin/static/media/vincentlin.0fc612f0ed520cb2b31b.jpg",
     "static/media/berkeley.png": "/vincentlin/static/media/berkeley.859861c5b37fb7ed7033.png",
@@ -11,11 +11,11 @@
     "static/media/housing.jpeg": "/vincentlin/static/media/housing.250c2532bec5afc13c7b.jpeg",
     "static/media/scheme.webp": "/vincentlin/static/media/scheme.65041b78408b09d3698a.webp",
     "index.html": "/vincentlin/index.html",
-    "main.94b1129f.css.map": "/vincentlin/static/css/main.94b1129f.css.map",
+    "main.aa94cefc.css.map": "/vincentlin/static/css/main.aa94cefc.css.map",
     "main.f6eec7dc.js.map": "/vincentlin/static/js/main.f6eec7dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.94b1129f.css",
+    "static/css/main.aa94cefc.css",
     "static/js/main.f6eec7dc.js"
   ]
 }
