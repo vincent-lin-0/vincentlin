@@ -25,11 +25,11 @@
 
 .education-container {
   font-weight: 80;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 100%;
   text-align: left;
-  width: 41%;
   margin: 5rem auto;
+  max-width: 45%;
   letter-spacing: .04em;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
@@ -74,10 +74,9 @@ li {
 
 .education-text {
   font-weight: 100;
-  font-size: 22px;
-  line-height: 100%;
+  font-size: 20px;
   text-align: left;
-  width: 70%;
+  width: 100%;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
   margin-left: 3rem;
@@ -95,7 +94,7 @@ li {
 .education-bio {
   display: flex;
   flex-direction: row;
-  width: 40%;
+  width: 45%;
   position: center;
   margin: 3rem auto 1rem;
 }
