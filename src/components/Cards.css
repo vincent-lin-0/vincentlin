@@ -4,21 +4,24 @@
 }
 
 .cards {
-    padding: 4rem;
+    padding: 5rem;
     background: black;
   }
   
   h1 {
     text-align: center;
     color: white;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
   }
   
   .cards__container {
     display: flex;
     flex-flow: column;
     align-items: center;
-    max-width: 1120px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
   
@@ -28,14 +31,14 @@
   }
   
   .cards__items {
-    margin-bottom: 24px;
+    margin-bottom: 60px;
   }
   
   .cards__item {
     display: flex;
     flex: 1;
-    margin: 0 1rem;
-    border-radius: 10px;
+    margin: 0 1.5rem;
+    border-radius: 30px;
     background-color: white;
   }
   

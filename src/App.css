@@ -6,8 +6,7 @@
 
 .home,
 .about,
-.projects,
-.contact {
+.projects{
   display: flex;
   height: 90vh;
   align-items: center;
@@ -15,15 +14,48 @@
   font-size: 3rem;
 }
 
-.about-me {
+.about-page {
+  padding: 5rem;
+}
+
+.education-page {
+  background-color: bisque;
+  padding: 5rem;
+}
+
+.education-container {
+  font-weight: 80;
+  font-size: 20px;
+  line-height: 100%;
+  text-align: left;
+  width: 41%;
+  margin: 5rem auto;
+  letter-spacing: .04em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+li {
+  margin: 22px 0;
+}
+
+.title {
+  text-align: center;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.education-title {
   color: black;
   flex-direction: column;
   font-weight: 500;
   font-size: 30px;
   line-height: 100%;
   width: 70%;
-  margin-top: 5rem;
-  margin: 5rem auto -7rem;
+  margin: 8rem auto -7rem;
   position: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
@@ -35,28 +67,48 @@
   line-height: 175%;
   text-align: center;
   width: 70%;
-  margin: 10rem auto -4rem;
+  margin: 3rem auto;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
+}
+
+.education-text {
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 100%;
+  text-align: left;
+  width: 70%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  margin-left: 3rem;
+  margin-top: 1.5rem;
 }
 
 .bio {
   display: flex;
   flex-direction: row;
   width: 70%;
-  position: relative;
-  margin: 10rem auto 10rem;
+  position: center;
+  margin: 5rem auto 1rem;
+}
+
+.education-bio {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  position: center;
+  margin: 3rem auto 1rem;
 }
 
 .bio-text {
-  margin: 0 0 0 2em;
+  margin-left: 3rem;
   font-size: 20px;
   line-height: 1.5em;
   letter-spacing: .015em;
   font-weight: 500;
   margin-bottom: 16px;
   position: center;
-  margin-block-start: 1em;
+  margin-block-start: 0.4em;
   margin-block-end: 1em;
   margin-inline-end: 0px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
@@ -64,10 +116,26 @@
 }
 
 .vincent-pic {
+  margin-top: 0.7em;
   max-width: 25em;
   max-height: 20em;
   width: auto;
   height: auto;
+}
+
+.berkeley-pic {
+  max-height: 9.5em;
+  width: auto;
+  height: auto;
+}
+
+.education {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  position: center;
+  margin: 1rem 14rem auto;
+  gap: 40px;
 }
 
 .projects {

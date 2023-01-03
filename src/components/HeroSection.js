@@ -5,11 +5,11 @@ import Typewriter from 'typewriter-effect';
 
 function HeroSection() {
   return (
-    <div className='hero-container'>
+    <div className='hero-container' id='top'>
         <div className='text'>
             <Typewriter
                 onInit={(typewriter) => {
-                    typewriter.typeString("Howdy!").pauseFor(500).deleteAll().typeString("Heyyyyy").deleteAll().typeString("Hi").pauseFor(500).typeString(", I'm Vincent!").start();
+                    typewriter.typeString("Hello World!").pauseFor(500).deleteAll().typeString("Howdy").deleteAll().typeString("Hi").pauseFor(500).typeString(", I'm Vincent!").start();
                 }}
             />
         </div>

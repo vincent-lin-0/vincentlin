@@ -3,10 +3,8 @@ import'../../App.css';
 
 function About() {
     return (
-        <div className='about-page'>
-            <div>
-                <h1 className='about-me'>ABOUT ME</h1>
-            </div>
+        <div className='about-page' id='about'>
+            <h1 className='title'>ABOUT ME</h1>
             <p className='about-me-text'>My name is Vincent Lin. I'm an undergraduate computer science major at UC Berkeley. I am interested in pursuing software engineering and I am actively looking for ways to develop my technical skills.</p>
             <div className='bio'>
                 <img src={require('./vincentlin.jpg')} alt='Vincent' className='vincent-pic' draggable="false"></img>
@@ -21,7 +19,7 @@ function About() {
                     <br/>
                     Feel free to reach out to me. I'm always excited to meet new people!
                 </p>
-            </div>
+            </div>             
         </div>
     );
 };

@@ -24,11 +24,42 @@ function Navbar() {
 
   window.addEventListener('resize', showButton);
 
+  const handleTopScroll = () => {
+    window.scroll({
+        top: 0,
+        behavior: 'smooth',
+      });
+  };
+
+  const handleAboutScroll = () => {
+    const element = document.getElementById('about');
+    if (element) {
+      // 👇 Will scroll smoothly to the top of the next section
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const handleEducationScroll = () => {
+    const element = document.getElementById('education');
+    if (element) {
+      // 👇 Will scroll smoothly to the top of the next section
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const handleProjectsScroll = () => {
+    const element = document.getElementById('projects');
+    if (element) {
+      // 👇 Will scroll smoothly to the top of the next section
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <>
     <nav className="navbar">
         <div className="navbar-container">
-            <Link to="/vincentlin" className="navbar-logo" onClick={closeMobileMenu}>
+            <Link className="navbar-logo" onClick={handleTopScroll}>
                 Vincent
             </Link>
             <div className='menu-icon' onClick={handleClick}>
@@ -36,13 +67,23 @@ function Navbar() {
             </div>
             <ul className={click ? 'nav-menu active': 'nav-menu'}>
                 <li className='nav-item'>
-                    <Link to='/vincentlin' className='nav-links' onClick={closeMobileMenu}>
+                    <Link className='nav-links' onClick={handleTopScroll}>
                         Home
                     </Link>
                 </li>
                 <li className='nav-item'>
-                    <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
+                    <Link className='nav-links' onClick={handleAboutScroll}>
                         About
+                    </Link>
+                </li>
+                <li className='nav-item'>
+                    <Link className='nav-links' onClick={handleEducationScroll}>
+                        Education
+                    </Link>
+                </li>
+                <li className='nav-item'>
+                    <Link className='nav-links' onClick={handleProjectsScroll}>
+                        Projects
                     </Link>
                 </li>
             </ul>
