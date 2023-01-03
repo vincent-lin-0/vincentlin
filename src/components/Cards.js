@@ -29,7 +29,7 @@ function Cards() {
                     <ul className='cards__items'>
                     <CardItem
                         src={require('../images/ataxx.png')}
-                        text='Ataxx: Recreated an aracade classic with a GUI. Implemented the AI player using game trees and alpha-beta pruning'
+                        text='Ataxx: Recreated an arcade classic with a GUI. Implemented the AI player using game trees and alpha-beta pruning'
                         label='Java'
                     />
                     <CardItem
