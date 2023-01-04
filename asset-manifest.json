@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vincentlin/static/css/main.aa94cefc.css",
-    "main.js": "/vincentlin/static/js/main.35fe76b6.js",
+    "main.css": "/vincentlin/static/css/main.e7d395a9.css",
+    "main.js": "/vincentlin/static/js/main.58a8b22e.js",
     "static/media/vincentlin.jpg": "/vincentlin/static/media/vincentlin.0fc612f0ed520cb2b31b.jpg",
     "static/media/berkeley.png": "/vincentlin/static/media/berkeley.859861c5b37fb7ed7033.png",
     "static/media/website.png": "/vincentlin/static/media/website.0f8aa9ad17f2e4cb62b3.png",
@@ -11,11 +11,11 @@
     "static/media/housing.jpeg": "/vincentlin/static/media/housing.250c2532bec5afc13c7b.jpeg",
     "static/media/scheme.webp": "/vincentlin/static/media/scheme.65041b78408b09d3698a.webp",
     "index.html": "/vincentlin/index.html",
-    "main.aa94cefc.css.map": "/vincentlin/static/css/main.aa94cefc.css.map",
-    "main.35fe76b6.js.map": "/vincentlin/static/js/main.35fe76b6.js.map"
+    "main.e7d395a9.css.map": "/vincentlin/static/css/main.e7d395a9.css.map",
+    "main.58a8b22e.js.map": "/vincentlin/static/js/main.58a8b22e.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa94cefc.css",
-    "static/js/main.35fe76b6.js"
+    "static/css/main.e7d395a9.css",
+    "static/js/main.58a8b22e.js"
   ]
 }
