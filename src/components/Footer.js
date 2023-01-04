@@ -3,7 +3,7 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <div className='footer-container'>
+    <div className='footer-container' id='footer'>
         <div class='footer-subscription'>
             <p className='footer-subscription-heading'>Thanks for visiting!</p>
             <p className='footer-supscription-text'> Contact and connect with me through Email, Linkedin, or Instagram. Have a great day~</p>

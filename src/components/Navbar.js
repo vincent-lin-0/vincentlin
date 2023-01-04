@@ -55,6 +55,14 @@ function Navbar() {
     }
   };
 
+  const handleContactScroll = () => {
+    const element = document.getElementById('footer');
+    if (element) {
+      // 👇 Will scroll smoothly to the top of the next section
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <>
     <nav className="navbar">
@@ -66,11 +74,6 @@ function Navbar() {
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
             </div>
             <ul className={click ? 'nav-menu active': 'nav-menu'}>
-                <li className='nav-item'>
-                    <Link className='nav-links' onClick={handleTopScroll}>
-                        Home
-                    </Link>
-                </li>
                 <li className='nav-item'>
                     <Link className='nav-links' onClick={handleAboutScroll}>
                         About
@@ -86,8 +89,13 @@ function Navbar() {
                         Projects
                     </Link>
                 </li>
+                <li className='nav-item'>
+                    <Link className='nav-links' onClick={handleContactScroll}>
+                        Contact
+                    </Link>
+                </li>
             </ul>
-            {button && <Button buttonStyle='btn--outline'>Contact</Button>}
+            
         </div>
     </nav>
     </>
