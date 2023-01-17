@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/vincentlin/static/css/main.e7d395a9.css",
-    "main.js": "/vincentlin/static/js/main.58a8b22e.js",
+    "main.js": "/vincentlin/static/js/main.b8d0eb34.js",
     "static/media/vincentlin.jpg": "/vincentlin/static/media/vincentlin.0fc612f0ed520cb2b31b.jpg",
     "static/media/berkeley.png": "/vincentlin/static/media/berkeley.859861c5b37fb7ed7033.png",
     "static/media/website.png": "/vincentlin/static/media/website.0f8aa9ad17f2e4cb62b3.png",
     "static/media/SnackMatch.png": "/vincentlin/static/media/SnackMatch.1090218178f18774a751.png",
+    "static/media/habitsTracker.webp": "/vincentlin/static/media/habitsTracker.3cc4f7a9df42869b399d.webp",
     "static/media/enigma.png": "/vincentlin/static/media/enigma.f07205ee7ff781cf1e97.png",
     "static/media/autocorect.jpeg": "/vincentlin/static/media/autocorect.1cc787b47ea8907a7207.jpeg",
     "static/media/housing.jpeg": "/vincentlin/static/media/housing.250c2532bec5afc13c7b.jpeg",
     "static/media/scheme.webp": "/vincentlin/static/media/scheme.65041b78408b09d3698a.webp",
     "index.html": "/vincentlin/index.html",
     "main.e7d395a9.css.map": "/vincentlin/static/css/main.e7d395a9.css.map",
-    "main.58a8b22e.js.map": "/vincentlin/static/js/main.58a8b22e.js.map"
+    "main.b8d0eb34.js.map": "/vincentlin/static/js/main.b8d0eb34.js.map"
   },
   "entrypoints": [
     "static/css/main.e7d395a9.css",
-    "static/js/main.58a8b22e.js"
+    "static/js/main.b8d0eb34.js"
   ]
 }
